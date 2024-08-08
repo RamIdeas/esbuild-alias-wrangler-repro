@@ -1,0 +1,15 @@
+{
+	"name": "esbuild-alias",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"test": "rm output.mjs && node build.mjs && node output.mjs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"esbuild": "^0.23.0"
+	}
+}
